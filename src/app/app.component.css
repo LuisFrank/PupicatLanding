@@ -22,7 +22,7 @@
   }
 
   .image { 
-    background-image: url('/assets/images/section_3.png');
+    background-image: url('assets/images/section_3.png');
     background-position: center center;
     background-size: cover;
     position: relative;
@@ -30,7 +30,7 @@
   }
 
   .image_comprometidos { 
-    background-image: url('/assets/images/comprometidos_1.png');
+    background-image: url('assets/images/comprometidos_1.png');
     background-position: center center;
     background-size: cover;
     position: relative;
