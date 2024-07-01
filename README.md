@@ -30,5 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## GitHub pages
 La ruta no debe contener el inicial <img src="/assets/images/whatsapp-icon.png" <img src="assets/images/whatsapp-icon.png"
 
-## Para generar publicado
+## Para generar publicado  subdominio
 ng deploy --base-href=/PupicatLanding/
+## Para generar con dominio
+ng deploy --base-href=/
