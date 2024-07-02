@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #05333c;
+    padding-top: 50px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    color: #05333c; /* Color de texto principal */
+}
+h2, h4 {
+    color: #05333c; /* Color de texto para títulos */
+    margin-bottom: 20px;
+}
+ul {
+    padding-left: 20px;
+}
+p {
+    line-height: 1.6;
+}
+a {
+    color: #007bff; /* Color de enlaces */
+}
+a:hover {
+    text-decoration: none;
+}
