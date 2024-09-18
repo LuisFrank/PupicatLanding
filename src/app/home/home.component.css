@@ -130,13 +130,47 @@
 
   @media (max-width: 576px) { /* Tamaño de pantalla para móviles pequeños */
       .justify-text-sm {
-        text-align: center;
+        text-align: center!important;
       }
 
       .center-mobile {
         display: flex;
         justify-content: center;
       }
+
+      .pd-small{
+        padding-top: 3rem;
+      }
+
+      .text-small-size{
+        padding-bottom: 3rem;
+      }
+      .image-small-hide{
+        display: none;
+      }
+
+      .font-title-small{
+        text-align: center;
+        padding-bottom: 3rem;
+      }
+
+      .font-h5-small{
+        text-align: center;
+      }
+
+      .justify-content-center{
+        justify-content: flex-center;
+      }
+
+      .overlap-image-small{
+        display: none;
+      }
+
+      .custom-img-logo-small-device {
+        width: 60%;
+      }
+
+
     }
 
   
