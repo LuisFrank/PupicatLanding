@@ -1,10 +1,10 @@
 <main class="container">
-    <header class="d-flex justify-content-center pt-3 pb-5">
+    <header class="d-flex justify-content-center">
       <ul class="nav nav-pills col-12 justify-content-center">
         <li class="nav-item order-1 order-md-1"><a href="#historia" class="nav-link font-title text-color-title fs-5  mt-5">Historia</a></li>
         <li class="nav-item order-2 order-md-2"><a href="#tecuidamos" class="nav-link font-title text-color-title fs-5 mt-5">Te cuidamos</a></li>
-        <li class="nav-item order-0 order-md-3">
-          <img class="img-fluid " src="assets/images/pupicat_logo_1.png">
+        <li class="nav-item order-0 order-md-3 text-center">
+          <img class="img-fluid " src="assets/images/pupicat_logo_1.png" style="max-width:60%!important">
           <!-- <a href="#" class="nav-link font-title fs-1 text-color-title title-size split-word-container pt-1"> 
             <span>pupi</span>
             <span class="second-part">cat</span>      
@@ -14,28 +14,30 @@
         <li class="nav-item order-4 order-md-5"><a href="#rescatlover" class="nav-link active font-title button-color-escuchamos fs-5 mt-5" aria-current="page">RescatLovers</a></li>
       </ul>
     </header>
-    <div class="content align-items-center">
-      <div class="row align-items-center">
+    <div class="d-flex align-items-center min-vh-100">
+      <div class="row align-items-center ">
         <div class="col-md-7">
           <h2 class="featurette-heading fs-1 fw-bold font-title text-color-title justify-text-sm">Encuentra a tu mascota perdida.</h2>
-          <h4 class="text-color-title fw-bold font-text-general-bold justify-text-sm d-none d-md-block">!En pupicat cada minuto cuenta! <br> Descarga nuestra app en fase <span class="badge rounded-pill text-bg-warning font-text-general-bold">Beta</span><br> y comienza a buscarla.</h4> 
-          <h4 class="text-color-title fw-bold font-text-general-bold justify-text-sm d-block d-md-none">!En pupicat cada minuto cuenta! <br> Descarga nuestra app en fase <span class="badge rounded-pill text-bg-warning font-text-general-bold">Beta</span> y comienza a buscarla.</h4>
+          <h4 class="text-color-title fw-bold font-text-general-bold justify-text-sm d-none d-md-block">¡En pupicat cada minuto cuenta! <br> Descarga nuestra app en fase <span class="badge rounded-pill text-bg-warning font-text-general-bold">Beta</span><br> y comienza a buscarla.</h4> 
+          <h4 class="text-color-title fw-bold font-text-general-bold justify-text-sm d-block d-md-none">¡En pupicat cada minuto cuenta! <br> Descarga nuestra app en fase <span class="badge rounded-pill text-bg-warning font-text-general-bold">Beta</span> y comienza a buscarla.</h4>
           <div class="center-mobile">
             <img class="img-fluid " src="assets/images/google_play_1.png">
           </div>
         </div>
         <div class="col-md-5 text-center">
           <img class="img-fluid" src="assets/images/celular_2_1.png">
-         
         </div>
       </div>
-     
     </div>
   
-    <div id="historia" class="content">
+    <div id="historia" class="content min-vh-100">
+      
       <div class="row text-center justify-content-center">
         <img class="img-fluid custom-img-small text-center" src="assets/images/la_historia_1.png">
       </div>
+     
+      <div class="d-flex align-items-center min-vh-100">
+        <div class="container">
       <div class="row">
         <div class="col-md-5  text-center">
           <img class="img-fluid p-4" src="assets/images/nahomy_5.png">
@@ -50,14 +52,15 @@
         </div>
         
       </div>
-     
     </div>
-    <div id="tecuidamos" class="position-relative overflow-hidden p-4 p-md-5 text-center bg-body-tertiary image">
+  </div>
+    </div>
+    <div id="tecuidamos" class="min-vh-100 position-relative overflow-hidden p-4 p-md-5 text-center bg-body-tertiary image d-flex align-items-center justify-content-center">
       <div class="col-md-12 p-lg-5 mx-auto">
         <h1 class="pt-5 text-white font-text-general">Sabemos que cada segundo que pasa, la angustia y la desesperación se apoderan de ti.</h1>
         <h6 class="mb-3 text-light font-text-general">Por eso es importante tener un soporte que te acompañe en este proceso de búsqueda y en PUPICAT lo tenemos para ti</h6>
-        <div class="d-flex gap-3 justify-content-center lead fw-normal pt-5">
-        <button type="button" class="btn btn-primary btn-lg px-5 py-3 me-sm-3 button-color-cuidamos text-color-title rounded-pill fw-bold font-text-general">Te cuidamos</button>
+        <a class="d-flex gap-3 justify-content-center lead fw-normal pt-5">
+        <a type="button" href="https://forms.gle/d8CsC7ZghWLecwX48" target="_blank" class="btn btn-primary btn-lg px-5 py-3 me-sm-3 button-color-cuidamos text-color-title rounded-pill fw-bold font-text-general"><strong>Te cuidamos</strong></a>
           <!-- <a class="icon-link" href="#">
             Learn more
             <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
@@ -66,42 +69,47 @@
             Buy
             <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
           </a> -->
-        </div>
+        </a>
       </div>
       <div class="product-device shadow-sm d-none d-md-block"></div>
       <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
     </div>
   
-    <div class="bg-color-cuidamos  pb-4">
+    <div class="bg-color-cuidamos min-vh-100 d-flex flex-column">
+       <!-- Esta fila permanece arriba -->
       <div class="row justify-content-center pb-5">
         <img class="img-fluid custom-img-small" src="assets/images/cuidamos_de_ti_1.png">
       </div>
-      <div class="row text-center ms-5 me-5 mb-5">
-        <div class="col-lg-4 text-center">
-          <img src="assets/images/cat_dog_2.png">
-         
-          <h3 class="text-color-title font-text-general-bold">Coaching</h3>
-          <p class="fw-semibold font-text-general text-justify-custom">Seguimiento por parte de nuestra coach en sesions grupales.</p>
-   
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img src="assets/images/casa_3.png">
-          <h3 class="text-color-title font-text-general-bold">Creamos comunidad</h3>
-          <p class="fw-semibold font-text-general">Cuéntano tu historia, queremos escucharte.</p>
-  
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4 ">
-          <img src="assets/images/corazon_3.png">
-          <h3 class="text-color-title font-text-general-bold">No estás solo</h3>
-          <p class="fw-semibold text-color-title font-text-general text-justify-custom">Encontrarás más personas como tú, que han perdido a sus mascotas.</p>
-   
-        </div><!-- /.col-lg-4 -->
+      <div class="d-flex flex-grow-1 align-items-center justify-content-center">
+        <div class="container">
+          <div class="row text-center ms-5 me-5 mb-5">
+            <div class="col-lg-4 text-center">
+              <img src="assets/images/cat_dog_2.png">
+            
+              <h3 class="text-color-title font-text-general-bold">Coaching</h3>
+              <p class="fw-semibold font-text-general text-justify-custom ps-5 pe-5">Seguimiento por parte de nuestra coach en sesiones grupales.</p>
+      
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img src="assets/images/casa_3.png">
+              <h3 class="text-color-title font-text-general-bold">Creamos comunidad</h3>
+              <p class="fw-semibold font-text-general ps-5 pe-5">Cuéntanos tu historia. Queremos escucharte.</p>
+      
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4 ">
+              <img src="assets/images/corazon_3.png">
+              <h3 class="text-color-title font-text-general-bold">No estás solo</h3>
+              <p class="fw-semibold text-color-title font-text-general text-justify-custom ps-5 pe-5">Encontrarás a más personas como tú que han perdido a sus mascotas.</p>
+      
+            </div><!-- /.col-lg-4 -->
+          </div>
+          <div class="row text-center mt-4 ms-5 me-5">
+            <p class="fw-semibold text-color-title fs-5 font-text-general-bold">"Ingresando a nuestra app, podrás ser parte de la red de búsqueda de mascotas más grande del país. Súmate al nuestra comunidad y se parte del cambio."</p>
+          </div>
+        </div>  
       </div>
-      <div class="row text-center mt-4 ms-5 me-5">
-        <p class="fw-semibold text-color-title fs-5 font-text-general-bold">"Ingresando a nuestra app, podrás obtener un soporte grupal y acompañamiento emocional que te ayudará en el proceso de búsqueda de tu mascota".</p>
-      </div>
-    </div>  
-    <div id="mision" class="position-relative overflow-hidden p-4 p-md-5 text-center bg-body-tertiary image_comprometidos">
+    </div>
+    <div id="mision" class=" min-vh-100 position-relative overflow-hidden p-4 p-md-5 text-center bg-body-tertiary image_comprometidos d-flex align-items-center justify-content-center">
       <div class="row text-start pt-5">
         <div class="col-md-6 p-lg-6 ">
           <h1 class="pt-5 text-white font-title ">Comprometidos que regresen a casa</h1>
@@ -109,42 +117,46 @@
           <h5 class="fw-normal mb-3 text-white font-text-general">Por eso nuestra misión es que tu mascota regrese a casa contigo. Estamos aquí para ayurdate.</h5>
   
           <div class="d-flex gap-3 justify-content-start lead fw-normal pt-3">
-          <button type="button" class="btn btn-success  font-text-general btn-lg px-4 py-3 me-sm-3 button-color-descarga text-color-title fw-bold rounded-pill">Descarga la App</button>
+          <button type="button" class="btn btn-success  font-text-general btn-lg px-4 py-3 me-sm-3 button-color-descarga text-color-title fw-bold rounded-pill"><strong class="font-text-general-bold">Descarga la App</strong></button>
           </div>
         </div>
       </div>
     </div> 
-    <div class="position-relative overflow-hidden text-center bg-color-beta">
-      <div class="row justify-content-between align-items-center">
-        <div class="col-md-5">
-          <img class="img-fluid" src="assets/images/perro_5.png">
+
+    <div class="min-vh-100  position-relative overflow-hidden text-center bg-color-beta d-flex ">
+      <div class="row justify-content-between align-items-center w-100">
+        <!-- Columna de la imagen -->
+        <div class="col-md-5 h-100">
+          <img class="img-fluid h-100 w-100" src="assets/images/somos_beta_vertical.jpg" style="object-fit: cover;">
         </div>
+        
+        <!-- Columna del texto -->
         <div class="col-md-7 p-lg-6 ps-5 pe-5">
-          <h1 class=" text-white font-title text-color-title">Somos beta</h1>
+          <h1 class="text-white font-title text-color-title">Somos beta</h1>
           <br>
           <h4 class="fw-semibold fs-4 mb-3 text-light text-color-title text-justify-custom font-text-general">Queremos ser lo mejor para ti y para tu mascota</h4>
-          <h4 class="fw-semibold fs-4 mb-3 text-white text-color-title text-justify-custom font-text-general">Por eso, nos gustaría que compartieses tu experiencia con nosotros acerc de nuestra App y nos dieras tu feedback para ayudarnos a mejorar. Dale click en el botón!</h4>
-  
-          <div class="d-flex  justify-content-center lead fw-normal ">
-          <button type="button" class="btn btn-success  btn-lg px-5 button-color-escuchamos rounded-pill py-3 fw-semibold">!Te escuchamos!</button>
+          <h4 class="fw-semibold fs-4 mb-3 text-white text-color-title text-justify-custom font-text-general">Por eso, nos gustaría que compartas tu experiencia con nosotros acerca de Pupicat y nos brindes tu feedback para ayudarnos a mejorar. ¡Dale click en el botón!</h4>
+          
+          <div class="d-flex justify-content-center lead fw-normal">
+            <button type="button" class="btn btn-success btn-lg px-5 button-color-escuchamos rounded-pill py-3 fw-semibold fw-bold">¡Te escuchamos!</button>
           </div>
         </div>
       </div>
-    </div>  
-    <div id="rescatlover" class="position-relative overflow-hidden p-4 p-md-5 text-center bg-color-equipo">
+    </div>
+    <div id="rescatlover" class="min-vh-100 position-relative overflow-hidden p-4 p-md-5 text-center bg-color-equipo d-flex align-items-center justify-content-center">
       <div class="row mb-4">
        
         <div class="col-md-6 p-lg-6 text-start">
           <img class="img-fluid custom-img-logo-small mb-5" src="assets/images/pupicat_logo_4.png">
-          <h3 class="mb-3 text-color-title font-text-general-semibold">!Súmate al equipo de RescatLover!</h3>
-          <p class="fs-4 mb-3 text-color-title font-text-general">Ayúdanos a encontrar mascotas perdidas y obtén recompensas por tu apoyo como <strong class="font-text-general-bold">Rescatlover</strong>, cada apoyo cuenta.</p>
+          <h3 class="mb-3 text-color-title font-text-general-semibold">¡Súmate al equipo de RescatLover!</h3>
+          <p class="fs-4 mb-3 text-color-title font-text-general">Ayúdanos a encontrar mascotas perdidas y obtén recompensas como <strong class="font-text-general-bold">Rescatlover</strong>, cada apoyo cuenta.</p>
           <p class="fs-4 mb-3 text-color-title font-text-general">Descarga la App!</p>
   
           <img class="img-fluid rounded" src="assets/images/google_play_2.png">
          
         </div>
         <div class="col-md-6">
-          <p class="text-color-title fs-5 font-text-general-semibold">"Hagamos de este mundo un lugar mejor para nuestras mascotas"</p>
+          <h4 class="text-color-title font-text-general-semibold">"Hagamos de este mundo un lugar mejor para nuestras mascotas"</h4>
           <div class="overlap-image">
           <img class="img-fluid custom-img-big mt-5" src="assets/images/perro_batman_2.png">
           </div>
@@ -152,6 +164,7 @@
      
       </div>
     </div>
+    
     <a href="https://wa.me/+51902557637" target="_blank" class="whatsapp-float">
       <img src="assets/images/whatsapp-icon.png" alt="WhatsApp">
     </a>

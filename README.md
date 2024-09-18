@@ -34,3 +34,8 @@ La ruta no debe contener el inicial <img src="/assets/images/whatsapp-icon.png" 
 ng deploy --base-href=/PupicatLanding/
 ## Para generar con dominio
 ng deploy --base-href=/
+
+
+## Fav Icon debe ser la P de pupicat
+## La primera pantalla debe verse la primera sección en pantalla 1440 x 844
+##
