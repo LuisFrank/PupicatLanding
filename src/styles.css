@@ -37,6 +37,7 @@ src: url('assets/fonts/Poppins-Bold.woff') format('woff');
 
 :root {  
     --font-family-title: 'Dunkin Sans', sans-serif;
+    --bs-gutter-x: 0rem!important;
   }
 
 .font-text-general{
@@ -58,3 +59,4 @@ src: url('assets/fonts/Poppins-Bold.woff') format('woff');
 .text-color-title{
      color: #05333c!important;
 }
+

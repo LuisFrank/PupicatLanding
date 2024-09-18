@@ -94,6 +94,8 @@
     width: 40%;
   }
 
+
+
   @media (max-width: 767.98px) {
     .custom-img-small {
       width: 60%;
@@ -127,6 +129,21 @@
     text-align: justify;
   }
 
+  .nav-pills .nav-link:hover{
+    background-color:  #05333c!important;
+    border:  #05333c!important;
+    color: var(--bs-nav-pills-link-active-color)!important;
+  }
+
+  .shadow-start-end {
+    box-shadow: 6px 0 4px -4px #e4b3b3, -6px 0 4px -4px #f7f7f7; 
+    -moz-box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999; 
+    -webkit-box-shadow: 6px 0 4px -4px #ffffff, -6px 0 4px -4px #999; 
+  }
+
+  .container{
+
+  }
 
   @media (max-width: 576px) { /* Tamaño de pantalla para móviles pequeños */
       .justify-text-sm {
