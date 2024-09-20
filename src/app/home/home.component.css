@@ -10,7 +10,7 @@
     border-radius: 50px 50px 50px 50px;
     text-align: center;
     font-size: 24px;
-    box-shadow: 2px 2px 3px #999;
+    /* box-shadow: 2px 2px 3px #999; */
     z-index: 100;
   }
 
@@ -141,8 +141,12 @@
     -webkit-box-shadow: 6px 0 4px -4px #ffffff, -6px 0 4px -4px #999; 
   }
 
-  .container{
+  #BtnSolicitdAyuda:hover {
+    background-color:  #5cbbb3!important;
+  }
 
+  #BtnTeCuidamos:hover {
+    background-color:  #d38ca0!important;
   }
 
   @media (max-width: 576px) { /* Tamaño de pantalla para móviles pequeños */
@@ -187,7 +191,9 @@
         width: 60%;
       }
 
-
+      ul > li .mt-5 {
+        margin-top: 0.5rem !important;
+      }
     }
 
   
