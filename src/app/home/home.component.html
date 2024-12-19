@@ -15,23 +15,67 @@
       </ul>
     </header>
     <div class="d-flex align-items-center min-vh-100">
-      <div class="row align-items-center pd-small p-4">
-        <div class="col-md-7 ">
-          <h2 class="featurette-heading fs-1 fw-bold font-title text-color-title justify-text-sm text-small-size">Encuentra a tu mascota perdida.</h2>
-          <h4 class="text-color-title fw-bold font-text-general-bold justify-text-sm d-none d-md-block">¡En pupicat cada minuto cuenta! <br> Descarga nuestra app en fase <span class="badge rounded-pill text-bg-warning font-text-general-bold">Beta</span><br> y comienza a buscarla.</h4> 
-          <h4 class="text-color-title fw-bold font-text-general-bold justify-text-sm d-block d-md-none">¡En pupicat cada minuto cuenta! <br> Descarga nuestra app en fase <span class="badge rounded-pill text-bg-warning font-text-general-bold">Beta</span> y comienza a buscarla.</h4>
-          <div class="center-mobile">
-            <a href="https://play.google.com/store/apps/details?id=pupicat.starter.starter&pcampaignid=web_share" 
-              target="_blank" 
-              class="btn">
-              <img class="img-fluid" src="assets/images/google_play_1.png" alt="Descargar en Google Play">
-            </a>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+        <!-- <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="" ></button> -->
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active p-5">
+          <div class="row align-items-center pd-small p-4">
+            <div class="col-md-7 ">
+              <h2 class="featurette-heading fs-1 fw-bold font-title text-color-title justify-text-sm text-small-size">Encuentra a tu mascota perdida.</h2>
+              <h4 class="text-color-title fw-bold font-text-general-bold justify-text-sm d-none d-md-block">¡En pupicat cada minuto cuenta! <br> Descarga nuestra app en fase <span class="badge rounded-pill text-bg-warning font-text-general-bold">Beta</span><br> y comienza a buscarla.</h4> 
+              <h4 class="text-color-title fw-bold font-text-general-bold justify-text-sm d-block d-md-none">¡En pupicat cada minuto cuenta! <br> Descarga nuestra app en fase <span class="badge rounded-pill text-bg-warning font-text-general-bold">Beta</span> y comienza a buscarla.</h4>
+              <div class="center-mobile">
+                <a href="https://play.google.com/store/apps/details?id=pupicat.starter.starter&pcampaignid=web_share" 
+                  target="_blank" 
+                  class="btn">
+                  <img class="img-fluid" src="assets/images/google_play_1.png" alt="Descargar en Google Play">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-5 text-center ">
+              <img class="img-fluid " src="assets/images/celular_2_1.png">
+            </div>
           </div>
         </div>
-        <div class="col-md-5 text-center ">
-          <img class="img-fluid " src="assets/images/celular_2_1.png">
+        <div class="carousel-item">
+        
+          <div class="container">
+         
+            <img src="assets/images/banner2.jpg" class="img-fluid" alt="...">
+            <!-- <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div> -->
+          </div>
         </div>
+  
+        <!-- <div class="carousel-item ">
+     
+          <div class="container">
+            <div class="">
+              <h1>Llenar aqui 2</h1>
+              <p></p>
+              <p><a class="btn btn-lg btn-primary" href="#">Llenar aqui 2</a></p>
+            </div>
+          </div>
+        </div> -->
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+   
+     
     </div>
   
     <div id="historia" class="content min-vh-100 ">
@@ -185,219 +229,6 @@
 
 
 
-    <!-- <section id="preguntas-frecuentes" class="min-vh-100 bg-light p-5">
-      <h1 class="my-4 text-center">FAQs Pupicat</h1>
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              1.-¿Cómo funciona Pupicat para encontrar a mi mascota?
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>Respuesta:</strong> Pupicat utiliza alertas geolocalizadas que notifican a la comunidad cerca al lugar donde se perdió tu mascota; ellos podrán ayudarte a encontrar a tu mascota (Rescatlovers). Solo necesitas registrar los datos de tu mascota, agregar fotos recientes y fijar el punto donde se perdió. También puedes ofrecer una recompensa para motivar más ayuda.
-            </div>
-          </div>
-        </div>
-    
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              2.-¿Es necesario ofrecer una recompensa para usar la app?
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>Respuesta:</strong> No es obligatorio ofrecer una recompensa, pero hacerlo puede aumentar la posibilidad de que más Rescatlovers participen activamente en la búsqueda. Tú decides el monto y Pupicat gestiona la entrega de manera segura.
-            </div>
-          </div>
-        </div>
-    
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              3.-¿Qué pasa si alguien encuentra a mi mascota?
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>Respuesta:</strong> Cuando un Rescatlover informa haber encontrado a tu mascota, recibirás una notificación inmediata para comunicarte directamente con él. Pupicat facilita la comunicación para que puedan coordinar el reencuentro.
-            </div>
-          </div>
-        </div>
-    
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFour">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              4.-¿Cómo garantizan que las alertas lleguen a las personas correctas?
-            </button>
-          </h2>
-          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>Respuesta:</strong> Las alertas se envían automáticamente a los Rescatlovers que están cerca de la zona donde indicaste que tu mascota se perdió. Además, las alertas son visibles para toda la comunidad de Pupicat, aumentando las probabilidades de éxito.
-            </div>
-          </div>
-        </div>
-    
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFive">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-              5.-¿Qué necesito hacer para ser un Rescatlover?
-            </button>
-          </h2>
-          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>Respuesta:</strong> Solo descarga la app, crea tu perfil y activa las notificaciones. Cuando una alerta ocurra cerca de ti, recibirás todos los detalles necesarios para ayudar al dueño de la mascota perdida.
-            </div>
-          </div>
-        </div>
-    
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingSix">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-              6.-¿Recibo algo por ayudar a encontrar una mascota?
-            </button>
-          </h2>
-          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>Respuesta:</strong> Si el dueño ofrece una recompensa, Pupicat gestiona el pago de forma segura para que recibas tu parte cuando la mascota sea encontrada. Si no hay recompensa, ¡tu ayuda sigue siendo invaluable para la comunidad Petlover!
-            </div>
-          </div>
-        </div>
-    
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingSeven">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-              7.-¿Qué debo hacer si encuentro una mascota perdida?
-            </button>
-          </h2>
-          <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>Respuesta:</strong> Desde la app, puedes reportar que has encontrado una mascota. Sube fotos, describe la ubicación y el estado del animal. Pupicat se encargará de notificar al dueño para que se ponga en contacto contigo.
-            </div>
-          </div>
-        </div>
-    
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingEight">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-              8.-¿Pupicat tiene algún costo?
-            </button>
-          </h2>
-          <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>Respuesta:</strong> La descarga y el registro en Pupicat son gratuitos. No cobramos ningún tipo de comisión. Otros servicios premium están disponibles de forma opcional.
-            </div>
-          </div>
-        </div>
-    
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingNine">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-              9.-¿Qué sucede con la recompensa si mi mascota no es encontrada o fallece?
-            </button>
-          </h2>
-          <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>Respuesta:</strong> Pupicat tiene una política de devolución de recompensas en los siguientes casos:
-              <ul>
-                <li>Si tu mascota no es encontrada dentro de los 2 años posteriores al lanzamiento de la alerta, te reembolsaremos el monto ofrecido (menos una pequeña tarifa administrativa).</li>
-                <li>Si la mascota lamentablemente falleció y esto se puede verificar, también recibirás la devolución total de la recompensa ofrecida.</li>
-              </ul>
-              El reembolso se procesa directamente a la tarjeta o cuenta con la que hiciste el pago.
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
+
     
   </main>
-  <div class="container">
-    <footer class="py-5">
-      <div class="row">
-        <div class="col-6 col-md-3 mb-3">
-          <h5>Información</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#historia" class="nav-link p-0 text-body-secondary">Historia</a></li>
-            <li class="nav-item mb-2"><a href="#tecuidamos" class="nav-link p-0 text-body-secondary">Te cuidamos</a></li>
-            <li class="nav-item mb-2"><a href="#mision" class="nav-link p-0 text-body-secondary">Misión</a></li>
-            <li class="nav-item mb-2"><a href="#rescatlover" class="nav-link p-0 text-body-secondary">Rescatlovers</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md-3 mb-3">
-          <h5>Avisos legales</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Preguntas frecuentes</a></li>
-            <li class="nav-item mb-2"><a href="/Privacy-Policies" class="nav-link p-0 text-body-secondary">Politicas de privacidad</a></li>
-          </ul>
-        </div>
-  
-       
-  
-        <!-- <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-          </ul>
-        </div> -->
-  
-        <div class="col-md-6  mb-3">
-          <!-- <form>
-            <h5>Subscribe to our newsletter</h5>
-            <p>Monthly digest of what's new and exciting from us.</p>
-            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-              <label for="newsletter1" class="visually-hidden">Email address</label>
-              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-              <button class="btn btn-primary" type="button">Subscribe</button>
-            </div>
-          </form> -->
-        </div>
-      </div>
-  
-      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-        <p>© 2024 Pupicat - Todos los derechos reservados.</p>
-        <<ul class="list-unstyled d-flex">
-          <li class="ms-3">
-            <a class="link-body-emphasis" title="Pupicat"
-             href="https://www.instagram.com/pupicatperu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" >
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
-              </svg>
-            </a>
-          </li>
-          
-          <li class="ms-3">
-            <a class="link-body-emphasis" title="Pupicat" href="https://www.facebook.com/profile.php?id=100091830354564" target="_blank" >
-              <title>Facebook</title>
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-              </svg>
-            </a>
-          </li>
-      
-          <!-- <li class="ms-3">
-            <a class="link-body-emphasis" href="#" target="_blank" >
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
-                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
-              </svg>
-            </a>
-          </li> -->
-
-          <li class="ms-3">
-            <a class="link-body-emphasis" title="Pupicat" href="https://play.google.com/store/apps/details?id=pupicat.starter.starter&pcampaignid=web_share" target="_blank" >
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-google-play" viewBox="0 0 16 16">
-                <path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055zM1 13.396V2.603L6.846 8zM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27"/>
-              </svg>
-            </a>
-          </li>
-         
-        </ul>
-      </div>
-    </footer>
-  </div>
-  
