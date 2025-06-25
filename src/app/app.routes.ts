@@ -3,10 +3,11 @@ import { PrivacyPoliciesComponent } from './privacy-policies/privacy-policies.co
 import { HomeComponent } from './home/home.component';
 import { FaqsComponent } from './faqs/faqs.component'; // Importa el componente de FAQs
 import { FooterComponent } from './footer/footer.component'; // Importa el componente de Footer
-
+import { ComplaintsBookComponent } from './complaints-book/complaints-book.component';
 export const routes: Routes = [
   { path: 'Privacy-Policies', component: PrivacyPoliciesComponent },
   { path: 'Faqs', component: FaqsComponent }, // Agrega la ruta para FAQs
   { path: 'Footer', component: FooterComponent }, // Agrega la ruta para Footer
+  { path: 'Complaints-Book', component: ComplaintsBookComponent },
   { path: '', component: HomeComponent },
 ];
