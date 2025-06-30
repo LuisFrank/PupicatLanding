@@ -1,6 +1,6 @@
-/* Custom styles for FAQs page */
+/* Custom styles for Terms and Conditions page */
 
-.faqs-page {
+.terms-conditions-page {
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   min-height: 100vh;
   font-family: 'Poppins Regular', sans-serif;
@@ -329,27 +329,4 @@ p {
 
 .border-pupicat-pink {
   border-color: #EBB1CA !important;
-}
-
-/* Contact section specific styling */
-.contact-section .fa-2x {
-  transition: all 0.3s ease;
-}
-
-.contact-section .fa-2x:hover {
-  transform: scale(1.2);
-  color: #FFB600 !important;
-}
-
-/* FAQ specific enhancements */
-.faqs-page .accordion-body {
-  padding: 1.5rem;
-}
-
-.faqs-page .alert {
-  margin-bottom: 1rem;
-}
-
-.faqs-page .card-header {
-  font-weight: 600;
 }
